@@ -95,14 +95,18 @@ a{
 
 .col-4{
         width: calc(100% / 12 * 4);
-
-        h4{
-            border: 1px solid black;
-            text-align: center;
-            margin-top: 40px;
-            padding: 10px;
-        }
     } 
+
+.col-12{
+    width: 100%;
+}
+
+h4{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
 
 img{
         max-width: 100%;
@@ -128,7 +132,7 @@ img{
         padding-right: 40px;
     }
 
-    .class{
+    .business-class{
         padding: 20px;
         border: 1px solid black;
 
