@@ -109,13 +109,6 @@ a{
     width: 100%;
 }
 
-h4{
-    border: 1px solid black;
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-}
-
 img{
         max-width: 100%;
 }
@@ -124,6 +117,20 @@ img{
     i{
         color: blue;
     }
+}
+
+.business{
+    h4{
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        margin-top: 40px;
+    }
+}
+
+.underline{
+    text-decoration: underline;
+    color: blue;
 }
 /* /Utilities */
 
@@ -148,10 +155,7 @@ img{
             padding-top: 20px;
         }
 
-        .underline{
-            text-decoration: underline;
-            color: blue;
-        }
+        
 
         
     }
@@ -164,6 +168,27 @@ img{
         padding: 30px 0 20px 0;
     }
 }
+
+.row-op{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px;
+
+    .col-4{
+        padding: 20px;
+    }
+}
+
+.operations{
+padding-bottom: 150px;
+
+    h4{
+        font-size: 20px;
+        padding: 20px 0 20px 0;
+    }
+}
+
+
 
 
 
