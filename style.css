@@ -4,3 +4,50 @@
     box-sizing: border-box;
 }
 
+:root{
+    --drop-btn: #0061fe;
+    --drop-jumbo: #b4d0e6;
+}
+
+body{
+    color: black;
+}
+
+header{
+    padding: 20px;
+    background-color: white;
+
+    nav{
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .box{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+
+        }
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    background-color: var(--drop-btn);
+    padding: 5px 10px;
+    color: white;
+}
+
+
