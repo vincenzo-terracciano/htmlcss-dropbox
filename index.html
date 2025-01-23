@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="debug">
+<body>
 
 <header>
   <nav>
@@ -52,7 +52,7 @@
             <a class="btn" href="#">Inizia la tua prova gratuita</a>
             <p>Annulla in qualsiasi momento</p>
             <div class="arrow">
-              <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+              <a href="#business"><i class="fa-solid fa-arrow-down"></i></a>
             </div>
         </div>
         <div class="col-8">
@@ -64,12 +64,16 @@
     </div>
   </section>
 
-  <section class="business">
+  <!-- Business section -->
+  <section id="business">
     <div class="container">
       <h2>Trova il piano business che fa per te</h2>
       <span><input type="radio"> Fatturazione mensile</span>
       <span><input type="radio"> Fatturazione annuale</span>
+
       <div class="row">
+
+        <!-- Single/Professional card -->
         <div class="col-4">
           <h4><i class="fa-solid fa-user"></i> Singolo</h4>
           <div class="business-class m-h">
@@ -81,13 +85,15 @@
             <p>
               <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premiume condivisione file semplice e sicura
             </p>
-            <a class="btn" href="#">Prova gratis per 30 giorni</a>
+            <a class="btn btn-big" href="#">Prova gratis per 30 giorni</a>
             <p>oppure <a class="underline" href="#">acquista ora</a></p>
             <p>Punti Salienti del piano</p>
             <p class="check"><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</p>
             <p class="check"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
           </div>
         </div>
+
+        <!-- Team/Advanced card -->
         <div class="col-4">
           <h4><i class="fa-solid fa-people-group"></i> Team</h4>
           <div class="business-class m-h">
@@ -99,7 +105,7 @@
             <p>
               <i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controlloe per tenere al sicuro tutti i file del tuo team
             </p>
-            <a class="btn" href="#">Prova gratis per 30 giorni</a>
+            <a class="btn btn-big" href="#">Prova gratis per 30 giorni</a>
             <p>oppure <a class="underline" href="#">acquista ora</a></p>
             <p>Punti Salienti del piano</p>
             <p class="check">
@@ -119,6 +125,8 @@
             </p>
           </div>
         </div>
+
+        <!-- Enterprise card -->
         <div class="col-4">
           <h4><i class="fa-solid fa-building"></i> Azienda</h4>
           <div class="business-class m-h">
@@ -130,7 +138,7 @@
             <p>
               <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
             </p>
-            <a class="btn" href="#">Contattaci</a>
+            <a class="btn btn-big" href="#">Contattaci</a>
             <p>oppure <a class="underline" href="#">acquista ora</a></p>
             <p>Punti Salienti del piano</p>
             <p class="check">
@@ -145,16 +153,23 @@
           </div>
         </div>
       </div>
+
+      <!-- Last card -->
       <div class="row">
         <div class="col-12">
           <h4><i class="fa-solid fa-people-group"></i> Team</h4>
-          <div class="business-class">
-            <h3>Enterprise</h3>
-            <p class="bold">Contatta l'ufficio vendite per i prezzi</p>
-            <a class="btn" href="#">Contatta l'ufficio vendite</a>
-            <p>
-              Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
-            </p>
+          <div class="business-class bc-flex">
+            <div class="w-70">
+              <h3>Enterprise</h3>
+              <p class="bold">Contatta l'ufficio vendite per i prezzi</p>
+              <p>
+                Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
+              </p>
+            </div>
+            <div class="w-30">
+              <a class="btn btn-0" href="#">Contatta l'ufficio vendite</a>
+            </div>
+            
           </div>
         </div>
       </div>
