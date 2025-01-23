@@ -133,10 +133,6 @@ main{
             padding-top: 20px;
         }
         
-        .line{
-            padding: 20px 0;
-            border-bottom: 1px solid gray;
-        }
     }
 
     .bc-flex{
@@ -163,7 +159,7 @@ main{
 }
 
 .partner{
-    padding: 150px;
+    padding: 150px 0;
 
     h2{
         padding: 30px 0 20px 0;
@@ -204,7 +200,7 @@ footer{
         list-style: none;
 
         li{
-            padding: 10px;
+            padding: 10px 0;
             font-size: 12px;
 
             h3{
@@ -231,6 +227,18 @@ footer{
         }
     }
    }
+
+   hr{
+    width: 90px;    
+   }
+
+   .p-t{
+    padding-top: 40px;
+   }
+}
+
+hr{
+    width: 45px;
 }
 
 /* Utilities */
