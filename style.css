@@ -91,15 +91,23 @@ a{
 
 
 
-    .cont-jb{
-        width: 70%;
-        margin: auto;
-    }
+.cont-jb{
+    width: 70%;
+    margin: auto;
+}
 
 /* Utilities */
 .row{
-        display: flex;
-        gap: 30px;
+    display: flex;
+    gap: 30px;
+
+    .bold{
+        font-weight: bold;
+    } 
+    
+    .month{
+        color: grey;
+    }
 }  
 
 .col-4{
@@ -119,7 +127,7 @@ a{
 }
 
 img{
-        max-width: 100%;
+    max-width: 100%;
 }
 
 .check{
@@ -227,6 +235,9 @@ footer{
     i{
         padding: 3px;
         
+        &:last-child{
+            font-size: 8px;
+        }
     }
    }
 }
